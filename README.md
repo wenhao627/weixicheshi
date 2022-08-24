@@ -14,5 +14,5 @@ wechat:
   
   然后在src/main/java/com/github/binarywang/demo/wx/mp/servise/test3.java文件中修改天气api的url
   
-                     //代表早上8.30执行任务
-   @Scheduled(cron = "0 30 8 * * ?")//设置定时执行任务
+                    
+   @Scheduled(cron = "0 30 8 * * ?")//设置定时执行任务 //代表早上8.30执行任务
